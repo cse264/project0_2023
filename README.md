@@ -3,7 +3,7 @@
 
 ## Write your name and Lehigh e-mail address here in the README before you submit!
 
-In this assignment, you will be adding a new methid to the Array prototype, meaning that all Arrays will have access to this new method.
+In this assignment, you will be adding a new method to the Array prototype, meaning that all Arrays will have access to this new method.
 All the code you need is in this GitHub Classroom repo. 
 
 ### Instructions 
