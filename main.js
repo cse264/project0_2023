@@ -44,7 +44,7 @@ return x + y + z[0];
 }, 0, 2, 15);
 
 console.log(new_a);
- addHTML("new_a is now"+ new_a);
+addHTML("new_a is now"+ new_a);
 // expected output: Array [1, 25, 30]
 //there is no index 15, so nothing was skipped, 0 and 2 are skipped
 
