@@ -29,22 +29,12 @@ const bb = [1, 23, 30];
 // pass a function to mapCSE and index to skip
 const new_a = bb.mapCSE(function (x, y, z)
 {
-
-//value of current element
-console.log(x);
-
-//value of current index
-console.log(y);
-
-//original array
-console.log(z);
-
 return x + y + z[0];
 
 }, 0, 2, 15);
 
 console.log(new_a);
-addHTML("new_a is now"+ new_a);
+addHTML("new_a is now "+ new_a);
 // expected output: Array [1, 25, 30]
 //there is no index 15, so nothing was skipped, 0 and 2 are skipped
 
