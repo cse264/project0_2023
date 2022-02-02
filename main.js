@@ -18,7 +18,7 @@ window.onload = function () {
   start_div.appendChild(newElement);
 }
 
-//add code for mapCSE here
+//add code for mapCSE264 here
 
 
 //following is a test that should run
@@ -27,7 +27,7 @@ addHTML("Testing");
 const bb = [1, 23, 30];
 
 // pass a function to mapCSE and index to skip
-const new_a = bb.mapCSE(function (x, y, z)
+const new_a = bb.mapCSE264(function (x, y, z)
 {
 return x + y + z[0];
 
