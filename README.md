@@ -1,5 +1,5 @@
 # CSE264 Project 0: Add new method to JavaScript Array prototype
-## Due: Thursday, Sept 16, 2021 at 11:59 PM
+## Due: Wed, 2/16/2022 at 11:59 PM
 
 ## Write your name and Lehigh e-mail address here in the README before you submit!
 
@@ -20,7 +20,7 @@ For example.
 const bb = [1, 23, 22, 36];
 
 // pass a function to mapCSE264 and index to skip
-const new_a = bb.mapCSE(x => x + 2, 0, 2);
+const new_a = bb.mapCSE264(x => x + 2, 0, 2);
 
 console.log(new_a);
 // expected output: Array [1, 25, 22, 38]
