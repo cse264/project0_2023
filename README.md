@@ -11,8 +11,7 @@ You will be implementing a new method to the Array Prototype called "mapRoulette
 
 Map takes a function as an argument, and applies it to every element in the array, returning a new array with the results.
 
-mapRoulette will also take a number of functions and randomly apply one of this set of functions to each element of the array. In other words, for each element of the array, mapRoulette will randomly use one of the functions it has been given. If mapRoulette was given 3 functions, each function at a 1/3 chance of being used on any element of the array
-
+mapRoulette will take a number of functions and randomly apply one of this set of functions to each element of the array. In other words, for each element of the array, mapRoulette will randomly use one of the functions it has been given. For example, if mapRoulette was given 3 functions, each function at a 1/3 chance of being used on any element of the array.
 
 
 For example.
