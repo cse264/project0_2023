@@ -18,7 +18,7 @@ window.onload = function () {
   start_div.appendChild(newElement);
 }
 
-//add code for mapCSE264 here
+//add code for mapRoulette here
 
 
 //following is a test that should run
@@ -27,15 +27,13 @@ addHTML("Testing");
 const bb = [1, 23, 30];
 
 // pass a function to mapCSE and index to skip
-const new_a = bb.mapCSE264(function (x, y, z)
+const new_a = bb.mapRoulette(function (x, y, z)
 {
 return x + y + z[0];
 
-}, 0, 2, 15);
+}, x=>x+1);
 
 console.log(new_a);
 addHTML("new_a is now "+ new_a);
-// expected output: Array [1, 25, 30]
-//there is no index 15, so nothing was skipped, 0 and 2 are skipped
 
 };
